@@ -24,6 +24,8 @@ public class FirstClass {
     public void test(){
         int i = 0;
         i += 10;
+        int b = 1;
+        i+=b;
         System.out.println(i);
         System.out.println("我不需要.idea");
     }
